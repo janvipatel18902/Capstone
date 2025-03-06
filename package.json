@@ -16,8 +16,9 @@
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "react-leaflet": "^5.0.0",
-    "react-router-dom": "^7.2.0",
+    "react-router-dom": "^7.3.0",
     "realtorca": "^1.1.0"
   },
   "devDependencies": {
@@ -35,5 +36,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janvipatel18902/Capstone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/janvipatel18902/Capstone/issues"
+  },
+  "homepage": "https://github.com/janvipatel18902/Capstone#readme"
 }

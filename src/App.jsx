@@ -7,6 +7,8 @@ import Login from "./routes/login/Login";
 import SinglePage from "./routes/singlePage/singlePage";
 import SignInPage from "./routes/SignInPage/SignInPage";
 import SignUpPage from "./routes/SignUpPage/SignUpPage";
+import HomeBuyerGuidance from "./routes/guidance/guidance"; 
+import Footer from "./components/footer/Footer"; 
 import "./layout.scss";
 
 
@@ -22,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/mortgage-calculator" element={<MortgageCal />} />
+            <Route path="/guidance" element={<HomeBuyerGuidance />} /> 
             <Route path="/listPage" element={<ListPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/singlePage" element={<SinglePage />} />
@@ -29,6 +32,7 @@ function App() {
             <Route path="/SignUpPage" element={<SignUpPage />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );

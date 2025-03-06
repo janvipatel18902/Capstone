@@ -15,7 +15,8 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/listPage">Listing</Link>
         <Link to="/singlePage">Property</Link>
-        <Link to="/mortgage-calculator">Mortgage Calculator</Link> {/* ✅ Correct Route */}
+        <Link to="/mortgage-calculator">Mortgage Calculator</Link>
+        <Link to="/guidance">Guidance for Home-Buyers</Link> {/* Fixed Path */}
       </div>
 
       <div className="right">
@@ -28,7 +29,8 @@ function Navbar() {
           <Link to="/">Home</Link>
           <Link to="/listPage">Listing</Link>
           <Link to="/singlePage">Property</Link>
-          <Link to="/mortgage-calculator">Mortgage Calculator</Link> {/* ✅ Fixed Link */}
+          <Link to="/mortgage-calculator">Mortgage Calculator</Link>
+          <Link to="/guidance">Guidance for Home-Buyers</Link>
           <Link to="/SignInPage">Sign In</Link>
           <Link to="/SignUpPage">Sign Up</Link>
         </div>
