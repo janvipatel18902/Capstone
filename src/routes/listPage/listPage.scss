@@ -1,0 +1,21 @@
+@import "../../responsive.scss";
+
+.listPage {
+  display: flex;
+  height: 100%;
+
+  .listContainer {
+    flex: 1; // Changed from 3 to 1 to occupy full width
+    height: 100%;
+
+    .wrapper{
+      height: 100%;
+      padding-right: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      overflow-y: scroll;
+      padding-bottom: 50px;
+    }
+  }
+}

@@ -1,7 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
-import HomePage from "./routes/homePage/homePage";
+import HomePage from "./routes/homePage/HomePage";
 import MortgageCal from "./routes/mortgageCalculator/mortgageCal";
+import ListPage from "./routes/listPage/ListPage";
+import Login from "./routes/login/Login";
+import SinglePage from "./routes/singlePage/singlePage";
+import SignInPage from "./routes/SignInPage/SignInPage";
+import SignUpPage from "./routes/SignUpPage/SignUpPage";
 import "./layout.scss";
 
 
@@ -17,6 +22,11 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/mortgage-calculator" element={<MortgageCal />} />
+            <Route path="/listPage" element={<ListPage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/singlePage" element={<SinglePage />} />
+            <Route path="/SignInPage" element={<SignInPage />} />
+            <Route path="/SignUpPage" element={<SignUpPage />} />
           </Routes>
         </div>
       </div>

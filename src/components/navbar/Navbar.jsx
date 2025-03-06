@@ -13,24 +13,24 @@ function Navbar() {
           <span>Dwello</span>
         </Link>
         <Link to="/">Home</Link>
-        <Link to="/">About</Link>
-        <Link to="/">Contact</Link>
+        <Link to="/listPage">Listing</Link>
+        <Link to="/singlePage">Property</Link>
         <Link to="/mortgage-calculator">Mortgage Calculator</Link> {/* ✅ Correct Route */}
       </div>
 
       <div className="right">
-        <Link to="/">Sign In</Link>
-        <Link to="/" className="register">Sign Up</Link>
+        <Link to="/SignInPage">Sign In</Link>
+        <Link to="/SignUpPage" className="register">Sign Up</Link>
         <div className="menuIcon">
           <img src="/menu.png" alt="" onClick={() => setOpen((prev) => !prev)} />
         </div>
         <div className={open ? "menu active" : "menu"}>
           <Link to="/">Home</Link>
-          <Link to="/">About</Link>
-          <Link to="/">Contact</Link>
+          <Link to="/listPage">Listing</Link>
+          <Link to="/singlePage">Property</Link>
           <Link to="/mortgage-calculator">Mortgage Calculator</Link> {/* ✅ Fixed Link */}
-          <Link to="/">Sign In</Link>
-          <Link to="/">Sign Up</Link>
+          <Link to="/SignInPage">Sign In</Link>
+          <Link to="/SignUpPage">Sign Up</Link>
         </div>
       </div>
     </nav>
